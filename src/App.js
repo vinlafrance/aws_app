@@ -7,14 +7,9 @@ function App() {
       <p>
         Click on the malware to remove it from your computer
       </p>
-      <div className="malware" onClick="bim()">
+      <div className="malware">
         Grrr
       </div>
-      <script>
-        function bim() {
-          document.getElementById("malware").style.backgroundColor = "black"
-          }
-      </script>
     </div>
   );
 }
