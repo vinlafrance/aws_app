@@ -3,10 +3,18 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <p>
-        Yo this is a great hack, could I get participation points?
+        Click on the malware to remove it from your computer
       </p>
+      <div className="malware" onClick="bim()">
+        Grrr
+      </div>
+      <script>
+        function bim() {
+          document.getElementById("malware").style.backgroundColor = "black"
+          }
+      </script>
     </div>
   );
 }
